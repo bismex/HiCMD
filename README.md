@@ -49,43 +49,37 @@ python setup.py install
 git clone https://github.com/bismex/ongoing_project.git
 ```
 
-### Dataset
-#### Download the datasets
-
-- [RegDB_01](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy) (for a simple test) 
-- Original reference (optional)
-  - RegDB Dataset [1] : The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
-    - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
-  - SYSU-MM01 Dataset [2] : The SYSU-MM01 dataset can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
-
-#### Prepare the datasets
-```bash
-python prepare.py 
-```
 ## RegDB
 
 - In the actual experiment, a total of 10 experiment sets are used.
 - Here is a simple example of running an experiment on only one set (RegDB-01).
+- Download [RegDB_01](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy) (for a simple test) 
+  - The RegDB_01 dataset should be included in './model/'
+- (optional) If you want to experiment with all sets, download the official dataset:
+  - The RegDB dataset [1] can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form. (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
+  - Process the downloaded data according to the code by `python prepare.py`.
 
 ### Training
 
 ```bash
 sh train.sh
 ```
-- The RegDB_01 dataset should be included in './model/'
 
 ### Testing
+
+- The trained RegDB_01 model should be included
 
 ```bash
 sh test.sh
 ```
-- The RegDB_01 dataset should be included in './model/'
-- The trained RegDB_01 model should be included
 
 
 ## SYSU-MM01 (optional)
 
-- The authors' official matlab code is used to evaluate the SYSU dataset.
+- The SYSU-MM01 dataset [2] can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
+  - The SYSU dataset should be included in './model/'
+  - Process the downloaded data according to the code by `python prepare.py`.
+- The authors' official [matlab code](https://github.com/wuancong/SYSU-MM01) is used to evaluate the SYSU dataset.
 
 ### Training 
 
@@ -93,7 +87,6 @@ sh test.sh
 sh train.sh
 ```
 - Change the 'data_name' from 'RegDB_01' to 'SYSU'.
-- The SYSU dataset should be included in './model/'
 
 
 ### Testing 
@@ -101,6 +94,7 @@ sh train.sh
 ```bash
 sh test.sh
 ```
+
 - The trained SYSU model should be included
 - MATLAB is required for evaluating SYSU-MM01 (official code)
 
