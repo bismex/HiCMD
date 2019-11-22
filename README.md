@@ -52,10 +52,11 @@ git clone https://github.com/bismex/ongoing_project.git
 ### Dataset
 #### Download the datasets
 
-- [DB](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy)
-- RegDB Dataset [3] : The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
-  - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
-- SYSU-MM01 Dataset [4] : The SYSU-MM01 dataset can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
+- [RegDB_01](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy) (for a simple test) 
+- Original reference 
+  - RegDB Dataset [3] : The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
+    - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
+  - SYSU-MM01 Dataset [4] : The SYSU-MM01 dataset can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
 
 #### Prepare the datasets
 ```bash
