@@ -1,6 +1,6 @@
 # Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification
 
-The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch) and [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline).
+The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch), [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline), [MUNIT](https://github.com/NVlabs/MUNIT) [1], [DGNET](https://github.com/NVlabs/DG-Net) [2].
 
 
 ## Prerequisites
@@ -53,9 +53,9 @@ git clone https://github.com/bismex/ongoing_project.git
 #### Download the datasets
 
 - [DB](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy)
-- RegDB Dataset [1] : The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
+- RegDB Dataset [3] : The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
   - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
-- SYSU-MM01 Dataset [2] : The SYSU-MM01 dataset can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
+- SYSU-MM01 Dataset [4] : The SYSU-MM01 dataset can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
 
 #### Prepare the datasets
 ```bash
@@ -68,6 +68,10 @@ python prepare.py
 
 ## Reference
 
-- [1] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
+- [1] Huang, Xun, et al. "Multimodal unsupervised image-to-image translation." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
 
-- [2] A. Wu, W.-s. Zheng, H.-X. Yu, S. Gong, and J. Lai. Rgb-infrared crossmodality person re-identification. In IEEE International Conference on Computer Vision (ICCV), pages 5380–5389, 2017.
+- [2] Zheng, Zhedong, et al. "Joint discriminative and generative learning for person re-identification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2019.
+
+- [3] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
+
+- [4] A. Wu, W.-s. Zheng, H.-X. Yu, S. Gong, and J. Lai. Rgb-infrared crossmodality person re-identification. In IEEE International Conference on Computer Vision (ICCV), pages 5380–5389, 2017.
