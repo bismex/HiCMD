@@ -49,6 +49,9 @@ python setup.py install
 git clone https://github.com/bismex/ongoing_project.git
 ```
 
+---
+---
+
 ## RegDB
 
 - In the actual experiment, a total of 10 experiment sets are used.
@@ -73,6 +76,8 @@ sh train.sh
 sh test.sh
 ```
 
+---
+---
 
 ## SYSU-MM01 (optional)
 
