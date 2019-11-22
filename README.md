@@ -41,12 +41,14 @@ conda install -c conda-forge tqdm
 git clone https://github.com/Cadene/pretrained-models.pytorch.git
 cd pretrained-models.pytorch
 python setup.py install
-
+```
 
 - Clone this repo:
+
 ```bash
 git clone https://github.com/bismex/ongoing_project.git
 ```
+
 ### Dataset
 #### Download the datasets
 
