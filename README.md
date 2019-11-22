@@ -45,11 +45,7 @@ python setup.py install
 
 - Clone this repo:
 
-```bash
-git clone https://github.com/bismex/ongoing_project.git
-```
 
----
 ---
 
 ## RegDB
@@ -76,7 +72,6 @@ sh train.sh
 sh test.sh
 ```
 
----
 ---
 
 ## SYSU-MM01 (optional)
