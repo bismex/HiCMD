@@ -45,7 +45,6 @@ python setup.py install
 
 - Clone this repo:
 
-
 ---
 
 ## RegDB
