@@ -1,15 +1,13 @@
 # Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification
 
-The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch), [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline), [MUNIT](https://github.com/NVlabs/MUNIT) [1], [DGNET](https://github.com/NVlabs/DG-Net) [2].
-
 
 ## Prerequisites
 - Ubuntu 18.04
-- Python 3
-- Pytorch (recent version is recommended)
-- NVIDIA GPU (>8.5GB)
-- CUDA 10.0
-- CUDNN 7.5
+- Python 3.6
+- PyTorch 1.0+ (recent version is recommended)
+- NVIDIA GPU (>= 8.5GB)
+- CUDA 10.0 (optional)
+- CUDNN 7.5 (optional)
 
 
 ## Getting Started
@@ -65,6 +63,11 @@ python prepare.py
 ## Training
 
 ## Testing
+
+## Acknowledgement
+
+The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch), [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline), [MUNIT](https://github.com/NVlabs/MUNIT) [1], [DGNET](https://github.com/NVlabs/DG-Net) [2].
+
 
 ## Reference
 
