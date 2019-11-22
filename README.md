@@ -62,10 +62,48 @@ git clone https://github.com/bismex/ongoing_project.git
 ```bash
 python prepare.py 
 ```
+## RegDB
 
-## Training
+- In the actual experiment, a total of 10 experiment sets are used.
+- Here is a simple example of running an experiment on only one set (RegDB-01).
 
-## Testing
+### Training
+
+```bash
+sh train.sh
+```
+- The RegDB_01 dataset should be included in './model/'
+
+### Testing
+
+```bash
+sh test.sh
+```
+- The RegDB_01 dataset should be included in './model/'
+- The trained RegDB_01 model should be included
+
+
+## SYSU-MM01 (optional)
+
+- The authors' official matlab code is used to evaluate the SYSU dataset.
+
+### Training 
+
+```bash
+sh train.sh
+```
+- Change the 'data_name' from 'RegDB_01' to 'SYSU'.
+- The SYSU dataset should be included in './model/'
+
+
+### Testing 
+
+```bash
+sh test.sh
+```
+- The trained SYSU model should be included
+- MATLAB is required for evaluating SYSU-MM01 (official code)
+
 
 ## Acknowledgement
 
