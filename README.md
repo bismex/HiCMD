@@ -47,7 +47,7 @@ python setup.py install
 
 ---
 
-## RegDB
+## Training and testing
 
 - In the actual experiment, a total of 10 experiment sets are used.
 - Here is a simple example of running an experiment on only one set (RegDB-01).
