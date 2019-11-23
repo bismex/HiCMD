@@ -1,6 +1,6 @@
 # Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification
 
-# [Clone or download](https://drive.google.com/uc?authuser=0&id=1JC2bgBbS98igWksSLQUWKDUqsPEHKjcK&export=download)
+## [[Download]](https://drive.google.com/uc?authuser=0&id=1JC2bgBbS98igWksSLQUWKDUqsPEHKjcK&export=download)
 
 ## Prerequisites
 - Ubuntu 18.04
