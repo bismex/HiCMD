@@ -1,5 +1,5 @@
 ## data folder
 
-- Download [RegDB_pretrained](https://drive.google.com/uc?export=download&confirm=wHE1&id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
-  - The pretrained RegDB_01 model should be included in './pretrained/'
-  - Ex: `./HiCMD/pretrained/checkpoints/`
+- Download [RegDB_01](https://drive.google.com/uc?export=download&confirm=faH1&id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) (for a simple test) 
+  - The RegDB_01 dataset should be included in './data/'
+  - Ex: `./HiCMD/data/RegDB_01/`
