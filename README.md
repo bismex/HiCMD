@@ -52,10 +52,8 @@ python setup.py install
 - In the actual experiment, a total of 10 experiment sets are used.
 - Here is a simple example of running an experiment on only one set (RegDB-01).
 - Download [RegDB_01](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy) (for a simple test) 
-  - The RegDB_01 dataset should be included in './model/'
-- (optional) If you want to experiment with all sets, download the official dataset:
-  - The RegDB dataset [1] can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form. (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
-  - Process the downloaded data according to the code by `python prepare.py`.
+  - The RegDB_01 dataset should be included in './data/'
+  - Ex: `./HiCMD/dataset/RegDB`
 
 ### Training
 
@@ -63,39 +61,47 @@ python setup.py install
 sh train.sh
 ```
 
-### Testing
+### Testing on pretrained model
 
-- The trained RegDB_01 model should be included
+#### RegDB_01
+
+- The pretrained RegDB_01 model should be included.
+- Download []()
+  - The pretrained RegDB_01 model should be included in './pretrained/'
+  - Ex: `./HiCMD/pretrained/checkpoints`
 
 ```bash
 sh test.sh
 ```
+
+- The code provides the following results.
+
+#### SYSU-MM01
+
+- MATLAB is required for evaluating SYSU-MM01 (official code).
+- Download []()
+  - The pretrained SYSU-MM01 model should be included in './eval_SYSU/'
+  - Ex: `./HiCMD/eval_SYSU/`
+
+
+- The code provides the following results.
 
 ---
 
-## SYSU-MM01 (optional)
-
-- The SYSU-MM01 dataset [2] can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
-  - The SYSU dataset should be included in './model/'
-  - Process the downloaded data according to the code by `python prepare.py`.
-- The authors' official [matlab code](https://github.com/wuancong/SYSU-MM01) is used to evaluate the SYSU dataset.
-
-### Training 
-
-```bash
-sh train.sh
-```
-- Change the 'data_name' from 'RegDB_01' to 'SYSU'.
 
 
-### Testing 
+## (Optional)
 
-```bash
-sh test.sh
-```
+- If you want to experiment with all sets of RegDB, download the official dataset:
+  - The RegDB dataset [1] can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form. (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
 
-- The trained SYSU model should be included
-- MATLAB is required for evaluating SYSU-MM01 (official code)
+- If you want to experiment with SYSU-MM01, download the official dataset:
+  - The SYSU-MM01 dataset [2] can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
+  - The authors' official [matlab code](https://github.com/wuancong/SYSU-MM01) is used to evaluate the SYSU dataset.
+
+- Change the 'data_name' from 'RegDB_01' to the name of other datasets.
+- Process the downloaded data according to the code by `python prepare.py`.
+- Train and test 
 
 
 ## Acknowledgement
