@@ -44,6 +44,7 @@ python setup.py install
 ```
 
 - Clone this repo:
+  - [download](https://drive.google.com/uc?authuser=0&id=1JC2bgBbS98igWksSLQUWKDUqsPEHKjcK&export=download)
 
 ---
 
@@ -112,6 +113,7 @@ sh test.sh
 
 ### (Optional) If all the files can not downloaded in the above links, please check the below links.
 
+- [HiCMD-master.zip](https://drive.google.com/open?id=1JC2bgBbS98igWksSLQUWKDUqsPEHKjcK)
 - [RegDB_01](https://drive.google.com/open?id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) 
 - [RegDB_pretrained](https://drive.google.com/open?id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
 - [SYSU_features](https://drive.google.com/open?id=1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto)
