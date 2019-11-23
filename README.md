@@ -63,7 +63,7 @@ sh train.sh
 
 ### Testing on pretrained model
 
-#### RegDB_01
+#### 1) RegDB_01
 
 - The pretrained RegDB_01 model should be included.
 - Download []()
@@ -83,7 +83,7 @@ sh test.sh
 - The performance of the manuscript (Rank1: 70.93\%) is obtained by averaging this experiment for 10 sets.
 - If the code is not working, please refer to './pretrained/test_results/net_70000_RegDB_01_(ms1.0)_f1_test_result.txt'
 
-#### SYSU-MM01
+#### 2) YSU-MM01
 
 - MATLAB is required for evaluating SYSU-MM01 (official code).
 - Download []()
