@@ -81,6 +81,7 @@ sh test.sh
   - Rank20: 91.55\%
   - mAP: 65.93\%
 - The performance of the manuscript (Rank1: 70.93\%) is obtained by averaging this experiment for 10 sets.
+- If the code is not working, please refer to './pretrained/test_results/net_70000_RegDB_01_(ms1.0)_f1_test_result.txt'
 
 #### SYSU-MM01
 
@@ -96,6 +97,8 @@ sh test.sh
   - Rank10: 77.58\%
   - Rank20: 88.38\%
   - mAP: 35.94\%
+  
+- If the code is not working, please refer to './eval_SYSU/results_test_SYSU.txt'
 
 ---
 
