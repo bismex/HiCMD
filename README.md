@@ -110,7 +110,13 @@ sh test.sh
 
 
 
-## (Optional)
+### (Optional) If all the files can not downloaded in the above links, please check the below links.
+
+- [RegDB_01](https://drive.google.com/open?id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) 
+- [RegDB_pretrained](https://drive.google.com/open?id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
+- [SYSU_features](https://drive.google.com/open?id=1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto)
+
+### (Optional) Additional experiments
 
 - If you want to experiment with all sets of RegDB, download the official dataset:
   - The RegDB dataset [1] can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form. (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
@@ -124,16 +130,13 @@ sh test.sh
 - Train and test 
 
 
+
+
 ## Acknowledgement
 
 The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch), [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline), [MUNIT](https://github.com/NVlabs/MUNIT), [DGNET](https://github.com/NVlabs/DG-Net), [SYSU-evaluation](https://github.com/wuancong/SYSU-MM01).
 
 
-## If all the files can not downloaded in the above links
-
-- [RegDB_01](https://drive.google.com/open?id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) 
-- [RegDB_pretrained](https://drive.google.com/open?id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
-- [SYSU_features](https://drive.google.com/open?id=1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto)
 
 
 ## Reference
