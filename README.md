@@ -53,7 +53,7 @@ python setup.py install
 - Here is a simple example of running an experiment on only one set (RegDB-01).
 - Download [RegDB_01](https://drive.google.com/uc?export=download&confirm=faH1&id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) (for a simple test) 
   - The RegDB_01 dataset should be included in './data/'
-  - Ex: `./HiCMD/dataset/RegDB`
+  - Ex: `./HiCMD/data/RegDB_01/`
 
 ### Training
 
@@ -65,9 +65,9 @@ sh train.sh
 
 #### 1) RegDB_01
 
-- Download [RegDB_pretrained](https://drive.google.com/uc?authuser=0&id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas&export=download)
+- Download [RegDB_pretrained](https://drive.google.com/uc?export=download&confirm=wHE1&id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
   - The pretrained RegDB_01 model should be included in './pretrained/'
-  - Ex: `./HiCMD/pretrained/checkpoints`
+  - Ex: `./HiCMD/pretrained/checkpoints/`
 
 ```bash
 sh test.sh
@@ -89,7 +89,7 @@ sh test.sh
 #### 2) SYSU-MM01
 
 - MATLAB is required for evaluating SYSU-MM01 (official code).
-- Download [SYSU_features](https://drive.google.com/file/d/1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto/view)
+- Download [SYSU_features](https://drive.google.com/uc?export=download&confirm=hFnU&id=1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto)
   - The pretrained SYSU-MM01 features should be included in './eval_SYSU/'
   - Ex: `./HiCMD/eval_SYSU/`
 
@@ -127,6 +127,13 @@ sh test.sh
 ## Acknowledgement
 
 The code is based on the PyTorch implementation of the [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch), [Cross-Model-Re-ID-baseline](https://github.com/mangye16/Cross-Modal-Re-ID-baseline), [MUNIT](https://github.com/NVlabs/MUNIT), [DGNET](https://github.com/NVlabs/DG-Net), [SYSU-evaluation](https://github.com/wuancong/SYSU-MM01).
+
+
+## If all the files can not downloaded in the above links
+
+- [RegDB_01](https://drive.google.com/open?id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) 
+- [RegDB_pretrained](https://drive.google.com/open?id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas)
+- [SYSU_features](https://drive.google.com/open?id=1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto)
 
 
 ## Reference
