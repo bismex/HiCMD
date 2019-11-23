@@ -51,7 +51,7 @@ python setup.py install
 
 - In the actual experiment, a total of 10 experiment sets are used.
 - Here is a simple example of running an experiment on only one set (RegDB-01).
-- Download [RegDB_01](https://drive.google.com/uc?authuser=0&id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs&export=download) (for a simple test) 
+- Download [RegDB_01](https://drive.google.com/uc?export=download&confirm=faH1&id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs) (for a simple test) 
   - The RegDB_01 dataset should be included in './data/'
   - Ex: `./HiCMD/dataset/RegDB`
 
