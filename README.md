@@ -75,6 +75,12 @@ sh test.sh
 ```
 
 - The code provides the following results.
+  - Rank1: 70.44\%
+  - Rank5: 79.37\%
+  - Rank10: 85.15\%
+  - Rank20: 91.55\%
+  - mAP: 65.93\%
+- The performance of the manuscript (Rank1: 70.93\%) is obtained by averaging this experiment for 10 sets.
 
 #### SYSU-MM01
 
@@ -85,9 +91,11 @@ sh test.sh
 
 
 - The code provides the following results.
-  - Rank1
-  -
-- The performance of the manuscript (Rank1: 70.93\%) can be obtained by repeating this experiment for 10 sets.
+  - Rank1: 34.94\%
+  - Rank5: 65.48\%
+  - Rank10: 77.58\%
+  - Rank20: 88.38\%
+  - mAP: 35.94\%
 
 ---
 
