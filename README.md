@@ -85,6 +85,9 @@ sh test.sh
 
 
 - The code provides the following results.
+  - Rank1
+  -
+- The performance of the manuscript (Rank1: 70.93\%) can be obtained by repeating this experiment for 10 sets.
 
 ---
 
