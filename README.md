@@ -51,7 +51,7 @@ python setup.py install
 
 - In the actual experiment, a total of 10 experiment sets are used.
 - Here is a simple example of running an experiment on only one set (RegDB-01).
-- Download [RegDB_01](https://drive.google.com/open?id=1sEe5DQC5rJNHYuNKLOgkAj2iEg7aFMTy) (for a simple test) 
+- Download [RegDB_01](https://drive.google.com/uc?authuser=0&id=1jxs5mJntClyBWhiS9Rymw5-XKHIl7NJs&export=download) (for a simple test) 
   - The RegDB_01 dataset should be included in './data/'
   - Ex: `./HiCMD/dataset/RegDB`
 
@@ -65,7 +65,7 @@ sh train.sh
 
 #### 1) RegDB_01
 
-- Download []()
+- Download [RegDB_pretrained](https://drive.google.com/uc?authuser=0&id=1hJBhymCTiK6bBcL7aiXdW-OnLJ6Rufas&export=download)
   - The pretrained RegDB_01 model should be included in './pretrained/'
   - Ex: `./HiCMD/pretrained/checkpoints`
 
@@ -89,8 +89,8 @@ sh test.sh
 #### 2) SYSU-MM01
 
 - MATLAB is required for evaluating SYSU-MM01 (official code).
-- Download []()
-  - The pretrained SYSU-MM01 model should be included in './eval_SYSU/'
+- Download [SYSU_features](https://drive.google.com/file/d/1qLb25dqiXGd_K5XvX8_28ee-tWrBuuto/view)
+  - The pretrained SYSU-MM01 features should be included in './eval_SYSU/'
   - Ex: `./HiCMD/eval_SYSU/`
 
 
