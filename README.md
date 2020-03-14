@@ -1,10 +1,14 @@
+---
+
 **I am currently studying as a visiting researcher at Carnegie Mellon University. So please email me if you are interested in collaborative research among those interested in re-identification in Pittsburgh or another city in the United States. Feel free to visit my [homepage](https://sites.google.com/site/seokeonchoi/) and [awesome person re-id github page](https://github.com/bismex/Awesome-person-re-identification)**
 
 ---
 
 # Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification
 
+<**Illustration of our Hierarchical Cross-Modality Disentanglement (Hi-CMD) concept**>
 
+<img src='concept.PNG' width='650'>
 
 
 ## Prerequisites
