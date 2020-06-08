@@ -153,7 +153,7 @@ The code is based on the PyTorch implementation of the [Person_reID_baseline_pyt
 @InProceedings{Choi_2020_CVPR,
 author = {Choi, Seokeon and Lee, Sumin and Kim, Youngeun and Kim, Taekyung and Kim, Changick},
 title = {Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
 month = {June},
 year = {2020}
 }
