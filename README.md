@@ -132,7 +132,7 @@ sh test.sh
   - The RegDB dataset [1] can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form. (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
 
 - If you want to experiment with SYSU-MM01, download the official dataset:
-  - The SYSU-MM01 dataset [2] can be downloaded from this [website](http://www.sysu.edu.cn/403.html).
+  - The SYSU-MM01 dataset [2] can be downloaded from this [website](https://github.com/wuancong/SYSU-MM01).
   - The authors' official [matlab code](https://github.com/wuancong/SYSU-MM01) is used to evaluate the SYSU dataset.
 
 - Change the 'data_name' from 'RegDB_01' to the name of other datasets.
