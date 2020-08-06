@@ -87,13 +87,13 @@ class HICMD(nn.Module):
 
         # attribute indexing
         dim = self.gen_RGB.enc_att.output_dim
-        self.att_pose_idx = []
-        for i in range(opt.G_n_residual):
-            for j in range(round(dim/opt.G_n_residual*opt.att_pose_ratio)):
-                self.att_pose_idx.append(j + i * round(dim/opt.G_n_residual))
-        self.att_illum_idx = [i for i in range(dim) if not i in self.att_pose_idx]
-        self.att_pose_dim = len(self.att_pose_idx)
-        self.att_illum_dim = len(self.att_illum_idx)
+        # self.att_pose_idx = []
+        # for i in range(opt.G_n_residual):
+        #     for j in range(round(dim/opt.G_n_residual*opt.att_pose_ratio)):
+        #         self.att_pose_idx.append(j + i * round(dim/opt.G_n_residual))
+        # self.att_illum_idx = [i for i in range(dim) if not i in self.att_pose_idx]
+        # self.att_pose_dim = len(self.att_pose_idx)
+        # self.att_illum_dim = len(self.att_illum_idx)
 
         self.att_style_idx = []
         for i in range(opt.G_n_residual):
