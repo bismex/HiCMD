@@ -1,8 +1,25 @@
-**I am currently studying as a visiting researcher at Carnegie Mellon University. So please email me if you are interested in collaborative research among those interested in re-identification in Pittsburgh or another city in the United States. Feel free to visit my [homepage](https://sites.google.com/site/seokeonchoi/) and [awesome person re-id github page](https://github.com/bismex/Awesome-person-re-identification)**
+**Feel free to visit my [homepage](https://sites.google.com/site/seokeonchoi/) and [awesome person re-id github page](https://github.com/bismex/Awesome-person-re-identification)**
 
 ---
 
-# Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification [[paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_Hi-CMD_Hierarchical_Cross-Modality_Disentanglement_for_Visible-Infrared_Person_Re-Identification_CVPR_2020_paper.pdf)]
+# Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification [[CVPR2020 paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Choi_Hi-CMD_Hierarchical_Cross-Modality_Disentanglement_for_Visible-Infrared_Person_Re-Identification_CVPR_2020_paper.pdf)]
+
+----
+### Presentation video
+
+**1-minute version (ENG)**
+
+[![Video Label](https://img.youtube.com/vi/da_4DxF0rGk/0.jpg)](https://www.youtube.com/watch?v=da_4DxF0rGk)
+
+**5-minute version (KOR)**
+
+[![Video Label](https://img.youtube.com/vi/Llx__UKFBIY/0.jpg)](https://www.youtube.com/watch?v=Llx__UKFBIY)
+
+
+
+
+
+---
 
 <**Illustration of our Hierarchical Cross-Modality Disentanglement (Hi-CMD) concept**>
 
