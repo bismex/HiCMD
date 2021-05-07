@@ -122,7 +122,8 @@ sh test.sh
   - Ex: `./HiCMD/eval_SYSU/`
 
 
-- The code provides the following results.
+- The code provides the following results. 
+- Correction: In the paper, I wrote, "The SYSU dataset contains 22,258 visible images and 11,909 near-infrared images of 395 identities for training". This value indicates the total of training and validation sets. But, in fact, I only used a training set including 20,284 visible images and 9,927 infrared images of 296 identities. I apologize for the confusion. 
 
 | Metric    | Value  |
 | ---    | ---  |
